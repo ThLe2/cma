@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartes indices CMA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      background: #f7f9fc;
+      color: #1f2937;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .row-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 24px 0 12px;
+    }
+    .cards-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .card {
+      background: white;
+      border: 2px solid #d1d5db;
+      border-radius: 14px;
+      min-height: 150px;
+      padding: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .emoji {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+    .title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 15px;
+      color: #4b5563;
+    }
+    @media print {
+      body {
+        background: white;
+        margin: 10mm;
+      }
+      .card {
+        box-shadow: none;
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Cartes indices CMA</h1>
+
+  <div class="row-title">Groupe 1</div>
+  <div class="cards-row">
+    <div class="card">
+      <div class="emoji">🎓</div>
+      <div class="title">Formation</div>
+      <div class="subtitle">Mission CMA</div>
+    </div>
+    <div class="card">
+      <div class="emoji">👩‍🎓</div>
+      <div class="title">Jeunes</div>
+      <div class="subtitle">Public CMA</div>
+    </div>
+    <div class="card">
+      <div class="emoji">💡</div>
+      <div class="title">Projet</div>
+      <div class="subtitle">Idée / création</div>
+    </div>
+    <div class="card">
+      <div class="emoji">🆕</div>
+      <div class="title">Création</div>
+      <div class="subtitle">Démarrer activité</div>
+    </div>
+    <div class="card">
+      <div class="emoji">🏦</div>
+      <div class="title">Banque</div>
+      <div class="subtitle">Piège</div>
+    </div>
+  </div>
+
+  <div class="row-title">Groupe 2</div>
+  <div class="cards-row">
+    <div class="card">
+      <div class="emoji">📄</div>
+      <div class="title">Formalités</div>
+      <div class="subtitle">Démarches entreprise</div>
+    </div>
+    <div class="card">
+      <div class="emoji">🏢</div>
+      <div class="title">Entrepreneurs</div>
+      <div class="subtitle">Public CMA</div>
+    </div>
+    <div class="card">
+      <div class="emoji">📈</div>
+      <div class="title">Développement</div>
+      <div class="subtitle">Faire grandir activité</div>
+    </div>
+    <div class="card">
+      <div class="emoji">🔄</div>
+      <div class="title">Transmission</div>
+      <div class="subtitle">Céder entreprise</div>
+    </div>
+    <div class="card">
+      <div class="emoji">🇫🇷</div>
+      <div class="title">France Travail</div>
+      <div class="subtitle">Piège</div>
+    </div>
+  </div>
+</body>
+</html>
+
+print(path)
